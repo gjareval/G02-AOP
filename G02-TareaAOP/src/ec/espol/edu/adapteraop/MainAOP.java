@@ -9,10 +9,10 @@ public class MainAOP {
 		
 		Cliente cliente1= new Cliente();
 		
-		System.out.println("\nTransferencia a otro banco");
+		System.out.println("Transferencia a otro banco");
 		cliente1.realizarTransferencia(new transferenciaInterbancaria());
 		
-		System.out.println("Transferencia en el mismo banco");
+		System.out.println("\nTransferencia en el mismo banco");
 		cliente1.realizarTransferencia(new transferenciaBancariaMismoBanco());
 		
 	}
