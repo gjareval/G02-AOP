@@ -13,6 +13,7 @@ public class Empleado {
 	
 	public void printCurrent() {
 		Impresora impresora = Impresora.getInstance();
+		System.out.println("Impresion #"+impresora.hashCode());  // identificacion de objeto
 		impresora.print("Empleado: " + name + "\n" +
 				"Posición: " + position + "\n" +
 				"Función: " + role + "\n");
