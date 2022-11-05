@@ -1,9 +1,9 @@
 package ec.espol.edu.adapterpoo;
 
 
-public class adaptadorTransferenciaBancaria implements transferenciaBancaria {
+public class AdaptadorTransferenciaBancaria implements TransferenciaBancaria {
 	
-	private transferenciaInterbancaria transferenciaInterbancaria=new transferenciaInterbancaria();
+	private TransferenciaInterbancaria transferenciaInterbancaria=new TransferenciaInterbancaria();
 	
 
 	@Override

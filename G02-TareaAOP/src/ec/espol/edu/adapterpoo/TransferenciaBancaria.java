@@ -1,6 +1,6 @@
 package ec.espol.edu.adapterpoo;
 
-public interface transferenciaBancaria {
+public interface TransferenciaBancaria {
 	
 	public void seleccionarCuentaDestino();
 	

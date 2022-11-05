@@ -1,6 +1,11 @@
-package ec.espol.edu.adapteraop;
+package ec.espol.edu.adapterpoo;
 
-public class transferenciaBancariaMismoBanco implements transferenciaBancaria {
+public class TransferenciaMismoBanco implements TransferenciaBancaria {
+	
+	@Override
+	public void seleccionarCuentaDestino() {
+		System.out.println("Cuenta seleccionada");		
+	}
 
 	@Override
 	public void seleccionarCantidadDeposito() {

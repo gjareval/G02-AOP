@@ -1,8 +1,8 @@
 package ec.espol.edu.adapteraop;
 
-public aspect transferenciaBancariaAspect {
+public aspect AspectoTransferenciaBancaria{
 	
-	public pointcut adaptadorInterbancaria(): initialization(public transferenciaInterbancaria.new());
+	public pointcut adaptadorInterbancaria(): initialization(public TransferenciaInterbancaria.new());
 	after(): adaptadorInterbancaria(){
 		
 		//Ejecución ingresar numero cuenta
@@ -16,7 +16,7 @@ public aspect transferenciaBancariaAspect {
 			
 	}
 	
-	public pointcut adaptadorMismoBanco(): initialization(public transferenciaBancariaMismoBanco.new());
+	public pointcut adaptadorMismoBanco(): initialization(public TransferenciaMismoBanco.new());
 	after(): adaptadorMismoBanco(){
 		
 		//Seleccionar cuenta

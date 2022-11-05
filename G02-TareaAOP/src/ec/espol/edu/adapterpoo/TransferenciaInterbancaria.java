@@ -1,6 +1,6 @@
 package ec.espol.edu.adapterpoo;
 
-public class transferenciaInterbancaria {
+public class TransferenciaInterbancaria {
 	
 	public void ingresarNumeroCuentaDestino() {
 		System.out.println("Numero cuenta seleccionada");

@@ -1,6 +1,6 @@
 package ec.espol.edu.adapteraop;
 
-public interface transferenciaBancaria {
+public interface TransferenciaBancaria {
 	
 	public void seleccionarCantidadDeposito();
 	

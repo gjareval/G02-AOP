@@ -11,10 +11,10 @@ public class MainPOO {
 		
 		
 		System.out.println("Transferencia en el mismo banco");
-		cliente1.realizarTransferencia(new transferenciaBancariaMismoBanco());
+		cliente1.realizarTransferencia(new TransferenciaMismoBanco());
 		
 		System.out.println("\nTransferencia a otro banco");
-		cliente1.realizarTransferencia(new adaptadorTransferenciaBancaria());
+		cliente1.realizarTransferencia(new AdaptadorTransferenciaBancaria());
 		
 	}
 }
