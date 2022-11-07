@@ -16,7 +16,7 @@ public class MainsingletonAOP {
 		System.out.println("El objecto c1 es instancia de clase Conexion: "+(c1 instanceof Conexion));
 		
 		//Se comprueba que sea la misma refencia en la memoria
-		System.out.println("El objecto c es igual a c1? "+(c.equals(c1)));
+		System.out.println("El objecto c es igual a c1? "+(c.hashCode()==(c1.hashCode())));
 					
 	}
 }
